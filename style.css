@@ -1,0 +1,149 @@
+*{
+    border: red 2px;
+}
+.center{
+    text-align: center;
+}
+
+body{
+    /* background-image: linear-gradient(#152039, #050a17); */
+    /* background-image: linear-gradient( #1f2833, #0b0c10); */
+    background-color: #0f172a;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: auto;
+    font-family: 'Open Sans';
+    color: #66fcf1;
+}
+
+h2{
+    font-size: 45px;
+    color: #57dbd2;
+    padding-top: 40px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: auto;
+    color: #5fc0bb;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    font-size: larger;
+    color: #57dbd2;
+    font-family: Mukta, sans-serif;
+}
+
+.button{
+    border: none;
+    height: 130px;
+    width: 130px;
+    border-radius: 15%;
+    background-color: chartreuse;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    margin: 4px 4px;
+    display: inline block;
+    transition-duration: 0.5s;
+}
+
+.button:hover{
+    color: white;
+    background-color: darkgreen;
+}
+
+.smaller{
+    height: 90px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    background: transparent;
+}
+.smaller:hover{
+    transition-duration: 0.75s;
+    transform: scale(1.5);
+}
+
+/*img:hover{
+    transition-duration: 0.75s;
+    transform: scale(1.5);
+}*/
+
+.procontainer{
+    align-items: center;
+    align-content: center;
+    /* background-color: whitesmoke; */
+    display: flex;
+    width: 95%;
+    height: 65vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.procontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    /* background-color: red; */
+    height: 100%;
+}
+
+.proimage{
+    height: 100%;
+    flex: 1;
+    /* background-color: greenyellow; */
+}
+
+.procontainer > .proimage > img{
+    margin-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+
+
+.procontainer > .procontent > h3{
+    margin: 0px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.procontainer > .procontent > p{
+    width: 80%;
+    margin: 0px;
+    text-align: center;
+}
+
+footer{
+    color: #42beb5;
+    padding-top: 10px;
+    /* background-color:#1f2833; */
+    height: 30px;
+    width: 100%;
+}
+
+.contcontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.contimg{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 2rem;
+    /* width: 4rem; */
+    padding-bottom: 30px;
+}
+
+.contimg:hover{
+    transition-duration: 0.75s;
+    transform: scale(1.2);    
+}
